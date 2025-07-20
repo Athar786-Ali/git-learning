@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        #top-container{
+            height: 100px;
+            background-color: lightgray;
+            margin-bottom: 20px;
+
+        }
+        .content-container{
+             min-height: 1000px;
+             background-color: white;
+             column-count: 2;
+             column-gap: 20px;
+
+        }
+        #left{
+             min-height: 900px;
+             background-color: lightgreen;
+            
+        }
+        #main{
+             min-height: 900px;
+             background-color: lightblue;
+        }
+        .footer{
+           height: 100px;
+           background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div id="top-container"></div>
+    <div class="content-container">
+        <div id="left"></div>
+       
+        <div id="main">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ipsum at qui, doloribus quos in. Doloremque a laborum incidunt perferendis?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quia.</p>
+        </div>
+
+    </div>
+    <div class="footer">
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        div{
+            height: 500px;
+            width: 200px;
+        }
+        #d1{
+            background-color: blueviolet;
+        }
+        #d2{
+            background-color: rgb(163, 219, 21);
+            /* position: fixed;
+            left: 50px;
+            bottom: 40px; */
+            position: relative;
+            left: 50px;
+            /* position: absolute;
+            left: 50px; */
+        }
+        #d3{
+            background-color: rgb(68, 62, 73);
+        }
+        #d4{
+            background-color: rgb(183, 21, 29);
+        }
+        #d2A1{
+            position: absolute;
+            background-color: red;
+            height: 50px;
+            width: 50px;
+            left: 80px;
+            top: 20px;
+        }
+        #d2A2{
+            position: absolute;
+            background-color: blue;
+            height: 50px;
+            width: 50px;
+            top: 20px;
+            left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2">
+        <div id="d2A1"></div>
+        <div id="d2A2"></div>
+    </div>
+    <div id="d3"></div>
+    <div id="d4"></div>
+</body>
+</html>
